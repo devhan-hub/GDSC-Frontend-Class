@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html first project</title>
+
+    <style>
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #555;
+        }
+        header  {
+            background-color: green;
+
+            display: flex;
+            justify-content: space-between;
+
+            h1 {
+            text-align: center;
+            padding: 40px;
+            text-shadow: 2px 0px 4px  black;
+            font-family: cursive;
+            margin-bottom: 0;
+            }
+        }
+
+       
+
+        nav  ul{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+
+        }
+
+       nav {
+        padding: 5px;
+        background-color: rgb(0,200 ,0);
+            li {
+             list-style:none;
+             
+            }
+
+
+             a {
+                color: #333;
+                text-decoration: none;
+             }
+
+        }
+        .container {
+            display: flex;
+            height: 500px;
+        section {
+            width:80%;
+            box-sizing: border-box;
+            padding: 20px;
+            margin:15px 0 2px 10px;
+            background-color: rgb(0,200 ,0);
+
+
+        }
+
+        h2 {
+                font-family: 'Courier New', Courier, monospace;
+                text-align:center;
+                font-size:2em;
+                text-transform: uppercase;
+                padding: 10px;
+                text-align: center;
+
+            }
+
+ 
+                
+        }
+
+        aside {
+            font-size:30px;
+            margin:15px 0 2px 10px;
+            background-color: rgb(0,200 ,0);;
+        }
+
+        footer {
+            margin:  10px 0 0 0;
+            padding: 20px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BIRDWATCHING</h1>
+         <img src="../images/birda.jpg" alt="">
+       
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">get started</a></li>
+            <li><a href="#">Photo</a></li>
+            <li><a href="#">gear</a></li>
+            <li><a href="#">forum</a></li>
+        </ul>
+    </nav>
+       <div class="container">
+    <section>
+        <h2>welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ea nam reiciendis sequi praesentium, ad corrupti similique corporis nesciunt id quasi animi tempore harum dolor, nisi voluptas qui reprehenderit ut!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dicta, architecto at id consequuntur est deserunt similique commodi quas suscipit rem, quia deleniti expedita obcaecati officiis voluptates fugit a saepe.
+        </p>
+    </section>
+
+        <aside>
+            <h2>favourite photos</h2>
+            <div class=""container2>
+                <img src="../images/bird1.jpg" alt="bird-photo">
+                <img src="../images/th (1).jpg" alt="bird-photo">
+                <img src="../images/th (2).jpg" alt="bird-photo">
+                <img src="../images/th.jpg" alt="bird-photo">
+            </div>           
+        </aside>
+    </div>
+
+        <footer><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quasi quam nulla beatae quae iusto?</p>
+        <a href="#">Dove icon</a></footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTml first</title>
+    <style>
+        * {
+            padding:0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: forestgreen;
+        }
+
+        footer {
+            margin:10px 0 0 0;
+            padding: 20px;
+            background-color: forestgreen;
+        }
+
+        .center {
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ; 
+            font-size: 2em; 
+            padding: 30px 0;  
+            text-transform: uppercase; 
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-between;
+            width:100%;
+            padding: 20px;
+            margin:5px;
+            background-color: chartreuse;
+            
+        }
+
+        li {
+            list-style: none;
+            text-transform: uppercase;
+
+             a {
+                text-decoration: none;
+                color:black;
+                cursor: pointer;
+            }
+        }
+
+        /* .container {
+            display:flex;
+            padding: 40px 0 70px 0px;
+            section {
+                float:left;
+                width:50%;
+            }
+
+            aside {
+                float:right;
+                width:40%
+            }
+        } */
+
+        .container {
+        }
+
+      section {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        margin:60px 10px 40px 0;
+        background-color: chartreuse;
+
+        margin-left: 10px;
+      }
+
+      aside {
+        background-color: chartreuse;
+
+
+      }
+
+      .container2 {
+        display: flex;
+      }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header><h1 class="center">BIRDWATCHING</h1></header>
+    <nav>
+     <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">get started</a></li>
+        <li><a href="#">Photo</a></li>
+        <li><a href="#">gear</a></li>
+        <li><a href="#">forum</a></li>
+     </ul>
+    </nav>
+       <div class="container">
+<section>
+    <h2 class ="center">welcome</h2>
+    <p>Lorem ipsum dolor sit amet consectetur Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde, nobis cupiditate animi quis consectetur. Asperiores totam ratione reprehenderit, dolorum itaque aut. Deserunt consequatur consequuntur asperiores quisquam unde eveniet veritatis! adipisicing elit. Eius, obcaecati consequatur earum, blanditiis magnam placeat nesciunt optio porro a atque quaerat inventore accusamus labore quam, eligendi exercitationem velit nostrum cupiditate.</p>
+</section>
+
+<aside >
+    <h2 class="center">FAvourite photos</h2>
+    <div class=""container2>
+        <img src="../images/bird1.jpg" alt="bird-photo">
+        <img src="../images/th (1).jpg" alt="bird-photo">
+        <img src="../images/th (2).jpg" alt="bird-photo">
+        <img src="../images/th.jpg" alt="bird-photo">
+    </div>
+</aside>
+</div>
+<footer>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ex reprehenderit minus! Illum, itaque corrupti!</p>
+     <p>&copy;all right ricived</p>
+</footer>
+</body>
+</html> -->
