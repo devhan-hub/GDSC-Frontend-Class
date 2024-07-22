@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color:rgb(17, 71, 72);
+    padding: 20px;
+    text-transform: capitalize;
+}
+.one-box img{
+    max-width:100% ;
+}
+
+.three-box div {
+    max-width:310px;
+    height: 309px;;
+    margin-top:50px;
+    
+    margin:50px auto 0 auto ;
+}
+
+.three-box img {
+    width: 100%;
+}
+
+.three-box 
+
+{
+  
+    & .text {
+  
+    display: none;
+    }
+
+}
+
+.only-text {
+    max-width: 80%;
+    text-align: center;
+    margin:15px 10%; 
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.two-box {
+    max-width:310px;
+    height: 309px;;
+    margin:50px auto;
+
+   
+}
+
+.two-box img {
+     width: 100%;
+     
+}
+
+.two-box .img1  {
+    margin-bottom: 35px;
+}
+
+footer {
+    
+
+    display: none;
+  
+}
+
+@media (min-width:768px)
+{
+    .three-box {
+        display: flex;
+        width: 80%;
+        margin: 30px 10% ;
+
+        div {
+            max-width: 33.3%;
+            margin: 10px;
+          
+        }
+
+        img {
+            max-width:310px;
+           height: 309px;;
+            
+        }
+        
+        & .text {
+            text-transform: capitalize;
+            width:310px ;
+            height: 309px;
+            background-color: brown;
+            color: white;
+            text-align: center;
+            padding: 100px 40px 0 40px;
+            font-size: 35px;
+            text-align: center;
+            font-weight: 500;
+            display: block;
+            }
+
+    }
+
+
+    .two-box {
+        width: 80%;
+        margin: auto 10%;
+        display: flex;
+
+       img {
+        width: 310px;
+        height: 309px;
+        margin-left: 50px;
+       }
+    }
+
+    footer {
+    
+
+        display: block;
+       
+        padding: 20px;
+        background-color:rgb(17, 71, 72) ;
+        color: white;
+        margin-top:40px ;
+        text-transform: capitalize;
+        font-size: 25px;
+    }
+
+    .only-text {
+        font-size: 30px;
+    }
+    
+
+
+} 
